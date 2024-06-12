@@ -1,0 +1,21 @@
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .button {
+    width: 100px;
+    height: 45px;
+    margin: 5px;
+    background-color: rgb(250, 248, 248);
+    font-weight: 800;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  .button:hover {
+    background-color: #c4d8e5; 
+  }
